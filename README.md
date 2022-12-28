@@ -8,5 +8,8 @@ DFT.h is an implementation of dft/idft and fft/ifft.
 DFT matrix is a product of (logN-1) number of Sparsematrices, and FFT is the matrix multiplications of the sparse matrices.
 The header includes SparseComplexMatrix and the decomposition of DFT matrix into FFT matrices.
 
+### NumberTheory ( depends on BigInt )
+Contains some basic routines in number theory such as modular multiplication and inversion, finding primitive roots, and NTT/INTT.
+
 ### Convert_poly_to_binarytreeForm 
-<img width="512" alt="readme_convert_poly" src="https://user-images.githubusercontent.com/121416455/209746234-60ee7df1-adf1-410c-aa72-86d9ec1134ea.png">
+Converts a polynomial in the Chebyshev form to the form of Binary-tree evaluation.
