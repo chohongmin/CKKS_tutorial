@@ -14,5 +14,8 @@ Contains some basic routines in number theory such as modular multiplication and
 ### CKKS basic
 Implements CKKS encodoing/decoding and encryption/decrytion together with Rescaling.
 
+### KS_with_DNUM
+Key-switching algorithm with the gadget decomposition toolkit
+
 ### Convert_poly_to_binarytreeForm 
 Converts a polynomial in the Chebyshev form to the form of Binary-tree evaluation.
