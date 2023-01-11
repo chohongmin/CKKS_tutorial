@@ -23,5 +23,5 @@ Implements the ciphertext operation that corresponds to a linear transform on da
 ### Step 7. CoeffToSlot
 In this step, the CoeffToSlot algorithm in the case of logN=10 is implemented. FFT matrices are grouped by three matrices, of which rotation keys are generated. Then the CoeffToSlot is carried out.
 
-### Convert_poly_to_binarytreeForm 
-Converts a polynomial in the Chebyshev form to the form of Binary-tree evaluation.
+### Step 8. EvalPoly
+Converts a polynomial in the Chebyshev form to the form of Binary-tree evaluation, and evaluate the polynomial in the cases of degree=2,4,8,...,256.
