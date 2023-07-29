@@ -1,5 +1,5 @@
 # CKKS_tutorial
-This code provides a tutorial code for the CKKS-HEAAN crypto algorithm in RNS. The provided code is not an optimized one but a word-to-word simple implementation just for tutorial purpose.
+This code provides a tutorial code for the CKKS-HEAAN crypto algorithm in RNS. The provided code is not an optimized one but a word-to-word simple implementation just for tutorial purpose. This code is developed and maintained by Chohong Min (chohongmin@gmail.com), Hyewon Sung (sssun55ni@gmail.com) and Sieun Seo (hello0x7@naver.com) in the math department of Ewha university. 
 
 ### Step 1. BigInt
 This folder contains an implementation of Big integers, self-contained and independent to any library. 128 bit multiplication should involve assembly routine, and it contains BigInt.asm, BigInt.h, BigInt.cpp. The assembly code is platform-dependent, should compile with Microsoft Macro assembler, that is built in usual VC++ compilers.
